@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'motion/react'
+import {Link} from "react-scroll";
 
 
 const Footer = () => {
@@ -19,10 +20,10 @@ const Footer = () => {
         </h3>
 
         <ul className='flex flex-col gap-1 text-gray-400'>
-            <a href="#Header" className='hover:text-white mt-1'>Home</a>
-            <a href="#About" className='hover:text-white'>About</a>
-            <a href="#Skills" className='hover:text-white'>Skills</a>
-            <a href="#Projects" className='hover:text-white mb-3'>Projects</a>
+            <Link to="Header" className='hover:text-white mt-1' smooth={true} duration={100}>Home</Link>
+            <Link to="About" className='hover:text-white' smooth={true} duration={100}>About</Link>
+            <Link to="Skills" className='hover:text-white' smooth={true} duration={100}>Skills</Link>
+            <Link to="Projects" className='hover:text-white mb-3' smooth={true} duration={100}>Projects</Link>
         </ul>
         </div>
         <div className='text-gray-400 mb-3'>

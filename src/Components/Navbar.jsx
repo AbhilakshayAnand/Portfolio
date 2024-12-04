@@ -29,7 +29,7 @@ const Navbar = () => {
       items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
 
       <ul className='hidden md:flex gap-10 text-white rounded-full bg-gray-400 px-8 py-2'>
-      <a href="#Header" className='cursor-pointer hover:text-black'>Home</a>
+      <Link to="Header" className='cursor-pointer hover:text-black' smooth={true} duration={100}>Home</Link>
       <Link to="About" className='cursor-pointer hover:text-black' smooth={true} duration={100}>
         About
       </Link>
