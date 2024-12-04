@@ -19,7 +19,7 @@ const Navbar = () => {
   },[mobileMenu])
 
   const handleClick = () => {
-    window.open('https://drive.google.com/file/d/1S2SK0SOj1iojONaTZ63U92QAxg-4Y_CF/view?usp=sharing')
+    window.open('https://drive.google.com/file/d/1MAwwGG4m-YHNO0MpigjZB6nEp-QXGXnp/view?usp=sharing')
   }
 
   return (
