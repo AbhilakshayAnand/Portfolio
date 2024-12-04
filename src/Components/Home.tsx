@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import {Link} from "react-scroll";
 const Header = () => {
   return (
+    <div className='h-screen'>
     <div
     className="bg-cover h-screen w-full top-0 left-0"
     style={{ backgroundImage: "url('/Images/bg.png')" }}
@@ -38,6 +39,7 @@ const Header = () => {
       </Link>
       </div>
         </motion.div>
+    </div>
     </div>
   )
 }
