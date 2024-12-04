@@ -29,11 +29,11 @@ const Header = () => {
        text-white text-[21px] sm:text-3xl md:text-[27px] text-center font-light'>
         Dedicated to writing elegant code that drives change.</p>
         <div className='mt-4 md:mt-10 flex flex-row gap-20 justify-center w-full'>
-        <Link to="Projects" className='border rounded mt-24 sm:mt-24 px-4 py-1.5 bg-transparent hover:bg-blue-500 hover:border-blue-500' 
+        <Link to="Projects" className='border rounded mt-24 sm:mt-24 px-4 py-1.5 cursor-pointer bg-transparent hover:bg-blue-500 hover:border-blue-500' 
         smooth={true} duration={100}>
         Projects
       </Link>
-      <Link to="Projects" className='border border-transparent  rounded mt-24 sm:mt-24 px-4 py-1.5 bg-blue-500 hover:bg-transparent hover:border-white'
+      <Link to="Projects" className='border border-transparent cursor-pointer rounded mt-24 sm:mt-24 px-4 py-1.5 bg-blue-500 hover:bg-transparent hover:border-white'
        smooth={true} duration={100}>
         Projects
       </Link>
