@@ -33,9 +33,9 @@ const Header = () => {
         smooth={true} duration={100}>
         Projects
       </Link>
-      <Link to="Projects" className='border border-transparent cursor-pointer rounded mt-24 sm:mt-24 px-4 py-1.5 bg-blue-500 hover:bg-transparent hover:border-white'
+      <Link to="Contact" className='border border-transparent cursor-pointer rounded mt-24 sm:mt-24 px-4 py-1.5 bg-blue-500 hover:bg-transparent hover:border-white'
        smooth={true} duration={100}>
-        Projects
+        Contact
       </Link>
       </div>
         </motion.div>
