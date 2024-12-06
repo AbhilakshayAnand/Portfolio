@@ -13,7 +13,7 @@ const Footer = () => {
     viewport={{ once: false }}
     className='pt-4 rounded-t px-8 md:px-32 lg:px-32 bg-gray-900'
     id='Footer'>
-      <div className='flex items-end'>
+      <div className='flex flex-row items-center justify-center '>
         <div className='w-full mx-6 md:mx-24 md:w-1/5'>
         <h3 className='text-white text-lg font-bold'>
                 Components
@@ -27,7 +27,8 @@ const Footer = () => {
         </ul>
         </div>
         <div className='text-gray-400 mb-3'>
-        Copyright {new Date().getFullYear()} ©. All Rights Reserved</div>
+        Copyright {new Date().getFullYear()} ©. All Rights Reserved
+        </div>
       </div>
       
     </motion.div>
