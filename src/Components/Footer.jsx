@@ -20,10 +20,14 @@ const Footer = () => {
         </h3>
 
         <ul className='flex flex-col gap-1 text-gray-400'>
-            <Link to="Header" className='hover:text-white mt-1' smooth={true} duration={100}>Home</Link>
-            <Link to="About" className='hover:text-white' smooth={true} duration={100}>About</Link>
-            <Link to="Skills" className='hover:text-white' smooth={true} duration={100}>Skills</Link>
-            <Link to="Projects" className='hover:text-white mb-3' smooth={true} duration={100}>Projects</Link>
+            <Link to="Header" className='hover:text-white mt-1 cursor-pointer' smooth={true} duration={100} >
+            Home</Link>
+            <Link to="About" className='hover:text-white cursor-pointer' smooth={true} duration={100} >
+            About</Link>
+            <Link to="Skills" className='hover:text-white cursor-pointer' smooth={true} duration={100} >
+            Skills</Link>
+            <Link to="Projects" className='hover:text-white mb-3 cursor-pointer' smooth={true} duration={100} >
+            Projects</Link>
         </ul>
         </div>
         <div className='text-gray-400 mb-3'>
